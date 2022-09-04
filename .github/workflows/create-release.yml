@@ -35,6 +35,11 @@ jobs:
 
       - name: Build the extension
         run: yarn run build && node release.js && yarn run test && yarn run zip
+      
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: dist/
       # - name: Create Release for Tag
       #   id: release_tag
       #   uses: Akryum/release-tag@conventional
