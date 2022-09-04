@@ -35,7 +35,6 @@ jobs:
 
       - name: Build the extension
         run: yarn run build && node release.js && yarn run test && yarn run zip
-
       # - name: Create Release for Tag
       #   id: release_tag
       #   uses: Akryum/release-tag@conventional
