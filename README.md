@@ -38,3 +38,4 @@ See the [Contributing guide](https://devtools.vuejs.org/guide/contributing.html)
     <img src='https://akryum.netlify.app/sponsors.svg'/>
   </a>
 </p>
+
